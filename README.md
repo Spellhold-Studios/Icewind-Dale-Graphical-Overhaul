@@ -1,6 +1,6 @@
 ![Platform](https://img.shields.io/static/v1?label=Platform&message=Windows%20%7C%20Mac%20%7C%20Linux&color=informational)
 ![Language](https://img.shields.io/static/v1?label=Language&message=every%20language&color=limegreen)
-![SupportedGames](https://img.shields.io/static/v1?label=Supported%20games&message=EET%20%7C%20BGT%20%7C%20BG2%3AEE%20%7C%20TOB%20%7C%20BG1%3AEE%20%7C%20TuTu_TOSC&color=blue)
+![SupportedGames](https://img.shields.io/static/v1?label=Supported%20games&message=IWD1_EET%20%7C%20IWD2_EET%20%7C%20IWDEE%20%7C%20IWD2%20%7C%20IWD%3AEE%20%7C%20IWDinBG2&color=blue)
 
 <div align="center"><h1>Icewind Dale Graphical Overhaul</h1>
 
@@ -14,9 +14,6 @@
 **Mod Forum:** <a href="https://www.gibberlings3.net/forums/topic/36946-baldurs-gate-graphical-overhaul-bggo-for-eet-bgt-tutu-bgee/">Baldur's Gate Graphical Overhaul BGGO</a>  
 
 
-<!--[Read the mod's readme](http://spellholdstudios.github.io/readmes/sos-readme-english.html).
-
-[Download the mod at Spellhold Studios](http://www.shsforums.net/files/category/40-shadows-over-soubar/).<br> -->
 
 &nbsp;
 
