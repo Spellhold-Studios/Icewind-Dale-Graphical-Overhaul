@@ -1,4 +1,5 @@
 INCLUDE ~%MOD_FOLDER%/lib/remapped_tis.tpa~
+INCLUDE ~%MOD_FOLDER%/lib/exclude_tis.tpa~
 
 //ACTION_DEFINE_ASSOCIATIVE_ARRAY turn_off_anim_at_night BEGIN // to remove distracting animations of the maps
 //		AR1200TN => BG1200
@@ -226,7 +227,8 @@ DEFINE_ACTION_FUNCTION ~INSTALL_TILESETS~
 	RET file_list
 		wed_list
 BEGIN
-	ACTION_IF (VARIABLE_IS_SET $EVAL ~remapped_tis~(~%are%~) OR FILE_EXISTS_IN_GAME ~%are%.are~) BEGIN
+	ACTION_IF ((VARIABLE_IS_SET $EVAL ~remapped_tis~(~%are%~) AND !VARIABLE_IS_SET $EVAL ~exclude_tis~(~%are%~))
+				OR FILE_EXISTS_IN_GAME ~%are%.are~) BEGIN
 		//ACTION_IF (~%purple%~ STR_EQ ~BG1~) BEGIN
 			OUTER_TEXT_SPRINT are2 $EVAL ~remapped_tis~(~%are%~)
 		//END

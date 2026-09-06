@@ -1,0 +1,7 @@
+
+ACTION_IF MOD_IS_INSTALLED ~Kuldahar/Kuldahar.tp2~ (ID_OF_LABEL "Kuldahar.tp2" "L#-TheRediscoveryofKuldahar-IWD" ) /*OR FILE_EXISTS ~data/%Kuldahar%.bif~ */ BEGIN
+	PRINT ~The Rediscovery of Kuldahar detected~
+	ACTION_DEFINE_ASSOCIATIVE_ARRAY exclude_tis BEGIN
+		"ID2100" => "%Kuldahar%"
+	END
+END
